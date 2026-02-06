@@ -9,7 +9,6 @@ while True:
         print("errado numeros negativos não são permitidos")
     elif contador < 0:
         print("errado numeros negativos não são permitidos")
-        continue
 
     while contador <= extensão:
         print(tabuada, "x", contador, "=", contador * tabuada)

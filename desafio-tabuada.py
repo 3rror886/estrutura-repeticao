@@ -16,7 +16,7 @@ while True:
         contador += 1
     
     print("sim ou não" )
-    escolha = input("selecione uma nova tabuada: ")
+    escolha = input("selecionar uma nova tabuada: ")
 
     if escolha == "sim":
         print("receba")

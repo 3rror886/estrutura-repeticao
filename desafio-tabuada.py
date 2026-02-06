@@ -4,6 +4,7 @@ while True:
     tabuada = int(input("digite a tabuada que você deseja: "))
     contador = 0
     extensão = int(input("digite até a onde você deseja que sua tabuada siga: "))
+    continue
 
     if tabuada < 0:
         print("errado numeros negativos não são permitidos")

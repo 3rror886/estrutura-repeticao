@@ -3,15 +3,15 @@
 while True:
     tabuada = int(input("digite a tabuada que você deseja: "))
     contador = 0
-    extensão = int(input("digite até a onde você deseja que sua tabuada siga: "))
+    extensao = int(input("digite até a onde você deseja que sua tabuada siga: "))
     continue
 
     if tabuada < 0:
         print("errado numeros negativos não são permitidos")
-    elif contador < 0:
+    elif extensao < 0:
         print("errado numeros negativos não são permitidos")
 
-    while contador <= extensão:
+    while contador <= extensao:
         print(tabuada, "x", contador, "=", contador * tabuada)
         contador += 1
     
